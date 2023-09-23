@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: rgb(202, 243, 243);
+}
+
+.main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 100px;
+  text-decoration: 5px underline black;
+}
+
+.inner_main {
+  width: auto;
+  height: auto;
+  color: blueviolet;
+}
+
+.div_box {
+  padding: 3vw 0;
+  height: auto;
+  margin: 50px;
+  outline: solid 5px rgb(157, 110, 245);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 2%;
+}
+.inputform {
+  display: flex;
+  width: 50vw;
+  padding: 0;
+}
+
+.todoList {
+  padding: 2vw;
+}
+
+form {
+  width: 100vw;
+}
+
+input {
+  width: 50%;
+}
+
+.inputbox {
+  border: solid 2px blue;
+  text-align: left;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+.Addbutton {
+  background-color: rgb(114, 240, 240);
+  padding: 5px;
+  border-radius: 0 5px 5px 0;
+  width: 10vw;
+  border: solid 2px blue;
+}
+
+.todoitembox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.todoitem{
+  padding: 5px 15% ;
+  display: flex;
+  justify-content:left;
+  width:80%;
+}
+
+.buttons{
+  background-color: rgb(180, 237, 24);
+  padding: 5px;
+  border-radius: 10px;
+  width: 50px;
+  height:30px;
+  border: 0;
+  margin: 0 8px;
+}
+
+.delete{
+  background-color: rgb(237, 43, 43);
+  color:aliceblue
+}
